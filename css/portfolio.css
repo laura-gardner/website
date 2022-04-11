@@ -1,0 +1,50 @@
+body {
+  background: url(../img/background.png);
+  background-size: cover;
+}
+
+nav {
+  width: 50%;
+  margin: 0 auto;
+}
+
+nav a {
+  color: white;
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+nav a:hover {
+  color: #f87060 !important;
+}
+
+#content {
+  background: rgba(40, 125, 138, 0.3);
+  width: 70%;
+  margin: 0 auto;
+  font-family: "Crimson Text", serif;
+  text-align: center;
+  color: white;
+  margin-top: 20%;
+  padding: 2%;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 5em;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+p a {
+  color: white !important;
+}
+
+p a:hover {
+  color: #f87060 !important;
+  text-decoration: none;
+}

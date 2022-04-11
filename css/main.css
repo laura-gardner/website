@@ -1,0 +1,168 @@
+/***** BASE STYLES *****/
+
+body {
+  color: #3f403e;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  color: #3f403e;
+  font-family: 'Crimson Text', serif;
+  font-size: 24px;
+  margin-bottom: -20px;
+}
+
+
+.work {
+  background: #e9e9e9;
+}
+
+.contact {
+  background: #adb7b8;
+}
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER (ALL) *****/
+
+header h1 {
+  color: #3f403e;
+  font-family: 'Crimson Text', serif;
+  font-size: 48px;
+  font-style: italic;
+}
+
+nav {
+  float: right;
+  padding: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #3f403e;
+  padding-left: 60px;
+}
+
+
+/***** HEADER HOME *****/
+
+.header-home {
+  background: url('../img/header.png');
+  background-size: 100%;
+  height: 630px;
+}
+
+.header-home h2 {
+  color: #3f403e;
+  font-family: 'Crimson Text', serif;
+  font-size: 36px;
+  clear: both;
+}
+
+.header-home p {
+  font-size: 20px;
+  line-height: 150%;
+  width: 600px;
+}
+
+.header-home .contact-link {
+  text-decoration: none;
+  color: #f87060;
+}
+
+/***** HEADER: SKILLS *****/
+
+.header-skills a {
+  text-decoration: none;
+  color: #3f403e;
+}
+
+/***** HEADER: WORK *****/
+
+.header-work a {
+  text-decoration: none;
+  color: #3f403e;
+}
+
+/***** HEADER: CONTACT *****/
+
+.header-contact a {
+  text-decoration: none;
+  color: #3f403e;
+}
+
+/***** SKILLS *****/
+
+#skills {
+  height: 300px;
+}
+
+#skills .third-width {
+  padding: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+
+/***** WORK *****/
+
+#work {
+  background: #e9e9e9;
+  clear: both;
+  height: 420px;
+  padding: 15px;
+}
+
+#work .third-width {
+  padding: 15px 50px 30px 50px;
+  text-align: center;
+  width: 300px;
+}
+
+
+
+/***** CONTACT *****/
+
+#contact {
+  background: #adb7b8;
+  height: 400px;
+  text-align: left;
+}
+
+#contact p {
+  font-family: 'Crimson Text', serif;
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+#contact a {
+  color: #f87060;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+#contact img {
+  padding-left: 120px;
+  padding-right: 0px;
+}
